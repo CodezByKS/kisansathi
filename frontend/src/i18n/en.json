@@ -1,0 +1,62 @@
+{
+  "app": { "name": "KisanSathi AI", "tagline": "Smart crop advice for every farmer" },
+  "form": {
+    "title": "Tell us about your field",
+    "state": "State",
+    "district": "District",
+    "soilType": "Soil type",
+    "season": "Season",
+    "waterSource": "Water availability",
+    "landAcres": "Land size (acres)",
+    "submit": "Get recommendation",
+    "speak": "Speak",
+    "choose": "Select",
+    "districtPlaceholder": "Type your district",
+    "loading": "Please wait...",
+    "errors": {
+      "required": "Please choose or fill this",
+      "network": "Could not get advice. Please try again."
+    }
+  },
+  "soil": {
+    "alluvial": "Alluvial", "black": "Black", "red": "Red", "laterite": "Laterite",
+    "sandy": "Sandy", "clay": "Clay", "loamy": "Loamy"
+  },
+  "season": {
+    "kharif": "Kharif (monsoon)", "rabi": "Rabi (winter)", "zaid": "Zaid (summer)"
+  },
+  "water": {
+    "rainfed": "Rainfed", "canal": "Canal", "borewell": "Borewell", "pond": "Pond"
+  },
+  "results": {
+    "title": "Your crop plan",
+    "confidence": "Confidence",
+    "yield": "Expected yield",
+    "price": "Mandi price",
+    "forecast": "30-day forecast",
+    "profit": "Profit estimate",
+    "good": "Good monsoon",
+    "average": "Average",
+    "bad": "Weak monsoon",
+    "calendar": "Farming calendar",
+    "schemes": "Schemes for you",
+    "downloadPdf": "Download report",
+    "back": "Change my details"
+        
+  },
+  "voice": {
+    "tap": "Tap to speak",
+    "listening": "Listening... tap to stop",
+    "hint": "Say: Uttar Pradesh, Lucknow district, black soil, kharif, borewell, 2 acres",
+    "heard": "I heard:",
+    "filled": "Filled {{n}} fields. Please check and complete the rest.",
+    "nothing": "I could not match anything. Try again, or fill the form by hand.",
+    "unsupported": "Voice input works in Chrome or Edge. You can fill the form by hand.",
+    "denied": "Microphone is blocked. Allow it in the browser address bar and try again.",
+    "noSpeech": "I did not hear anything. Please try again.",
+    "error": "Voice input failed. Please try again or fill the form by hand."
+  }
+}
+    
+  
+  

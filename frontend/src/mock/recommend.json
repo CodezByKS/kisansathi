@@ -1,0 +1,38 @@
+{
+  "_mock": true,
+  "report_id": "mock0001",
+  "language": "en",
+  "weather": { "temperature": 28.4, "humidity": 72, "rainfall_mm": 850 },
+  "recommendations": [
+    {
+      "crop": "rice",
+      "confidence": 0.87,
+      "yield_per_ha": 3.1,
+      "price": { "current": 2200, "forecast_30d": 2350, "unit": "INR/quintal" },
+      "profit": { "good": 52000, "average": 38000, "bad": 12000 },
+      "why": "Placeholder explanation. The Gemini layer will replace this.",
+      "calendar": [
+        { "month": "Jun", "task": "Nursery preparation" },
+        { "month": "Jul", "task": "Transplanting" },
+        { "month": "Oct", "task": "Harvest" }
+      ]
+    },
+    {
+      "crop": "maize",
+      "confidence": 0.74,
+      "yield_per_ha": 2.8,
+      "price": { "current": 2050, "forecast_30d": 2100, "unit": "INR/quintal" },
+      "profit": { "good": 41000, "average": 29000, "bad": 8000 },
+      "why": "Placeholder explanation. The Gemini layer will replace this.",
+      "calendar": [
+        { "month": "Jun", "task": "Sowing" },
+        { "month": "Sep", "task": "Harvest" }
+      ]
+    }
+  ],
+  "schemes": [
+    { "name": "PM-KISAN", "benefit": "Placeholder: income support for eligible farmers" },
+    { "name": "Kisan Credit Card", "benefit": "Placeholder: short-term crop loans" }
+  ],
+  "disclaimer": "Advisory estimate based on the listed data sources. Not a bank-certified document."
+}
